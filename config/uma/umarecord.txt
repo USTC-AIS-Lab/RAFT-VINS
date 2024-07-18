@@ -1,0 +1,123 @@
+改进前
+zj@rog:~/vins_output/uma/conference-csc1$ python3 evaluate.py imu0_trajectory.csv vins_result_no_loop.csv 
+
+Parsing formats...
+	-The evaluation file is in EUROC format (ns)
+	-The ground truth file is in EUROC format (ns)
+
+Results:
+	Start segments count:  52
+	End segments count:  50
+	Translational drift:  4.7232 m
+	Rotational drift:  14.9099 deg
+
+	Total segments count:  1676
+	Translational alignment error RMSE:  4.9346 m
+	Translational alignment error mean:  4.9005 m
+	Translational alignment error median:  4.7191 m
+	Translational alignment error stdev:  0.5794 m
+	Translational alignment error min:  4.0678 m
+	Translational alignment error max:  6.4639 m
+
+zj@rog:~/vins_output/uma/conference-csc1$ python3 evaluate.py imu0_trajectory.csv my1.csv 
+
+Parsing formats...
+	-The evaluation file is in EUROC format (ns)
+	-The ground truth file is in EUROC format (ns)
+
+Results:
+	Start segments count:  50
+	End segments count:  52
+	Translational drift:  4.5401 m
+	Rotational drift:  5.0365 deg
+
+	Total segments count:  1674
+	Translational alignment error RMSE:  5.0129 m
+	Translational alignment error mean:  4.9991 m
+	Translational alignment error median:  4.9962 m
+	Translational alignment error stdev:  0.3717 m
+	Translational alignment error min:  4.5201 m
+	Translational alignment error max:  5.6640 m
+
+
+zj@rog:~/vins_output/uma/conference-csc2$ python3 evaluate.py imu0_trajectory.csv vins1.csv 
+
+Parsing formats...
+	-The evaluation file is in EUROC format (ns)
+	-The ground truth file is in EUROC format (ns)
+
+Results:
+	Start segments count:  70
+	End segments count:  49
+	Translational drift:  2.2159 m
+	Rotational drift:  8.9228 deg
+
+	Total segments count:  917
+	Translational alignment error RMSE:  2.2108 m
+	Translational alignment error mean:  2.2078 m
+	Translational alignment error median:  2.2131 m
+	Translational alignment error stdev:  0.1154 m
+	Translational alignment error min:  1.9606 m
+	Translational alignment error max:  2.4417 m
+
+zj@rog:~/vins_output/uma/conference-csc2$ python3 evaluate.py imu0_trajectory.csv my1.csv
+
+Parsing formats...
+	-The evaluation file is in EUROC format (ns)
+	-The ground truth file is in EUROC format (ns)
+
+Results:
+	Start segments count:  75
+	End segments count:  48
+	Translational drift:  1.3585 m
+	Rotational drift:  4.4185 deg
+
+	Total segments count:  927
+	Translational alignment error RMSE:  1.5066 m
+	Translational alignment error mean:  1.4986 m
+	Translational alignment error median:  1.4291 m
+	Translational alignment error stdev:  0.1554 m
+	Translational alignment error min:  1.3344 m
+	Translational alignment error max:  1.8524 m
+
+
+zj@rog:~/vins_output/uma/conference-csc3$ python3 evaluate.py imu0_trajectory.csv vins_result_no_loop.csv 
+
+Parsing formats...
+	-The evaluation file is in EUROC format (ns)
+	-The ground truth file is in EUROC format (ns)
+
+Results:
+	Start segments count:  60
+	End segments count:  56
+	Translational drift:  1.2905 m
+	Rotational drift:  8.3606 deg
+
+	Total segments count:  684
+	Translational alignment error RMSE:  1.3470 m
+	Translational alignment error mean:  1.3403 m
+	Translational alignment error median:  1.2919 m
+	Translational alignment error stdev:  0.1344 m
+	Translational alignment error min:  1.1631 m
+	Translational alignment error max:  1.6673 m
+
+
+zj@rog:~/vins_output/uma/conference-csc3$ python3 evaluate.py imu0_trajectory.csv my1.csv
+
+Parsing formats...
+	-The evaluation file is in EUROC format (ns)
+	-The ground truth file is in EUROC format (ns)
+
+Results:
+	Start segments count:  70
+	End segments count:  54
+	Translational drift:  1.2030 m
+	Rotational drift:  4.5088 deg
+
+	Total segments count:  704
+	Translational alignment error RMSE:  1.2394 m
+	Translational alignment error mean:  1.2388 m
+	Translational alignment error median:  1.2248 m
+	Translational alignment error stdev:  0.0391 m
+	Translational alignment error min:  1.1890 m
+	Translational alignment error max:  1.3055 m
